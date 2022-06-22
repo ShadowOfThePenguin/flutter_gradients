@@ -16,6 +16,7 @@ A fork of Bear-Dictionary's fork of Flutter Gradients. The null-safe changes he 
 Hopefully Jonathan Monga will get the original up to null saftey and this fork will no longer be necessary.
 
 Original repository: https://github.com/JonathanMonga/flutter_gradients
+
 null-safe changes by Bear-Dictionary: https://github.com/Bear-Dictionary/flutter_gradients
 
 To use in your flutter project add following to pubspec.yaml:
