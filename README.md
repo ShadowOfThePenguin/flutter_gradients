@@ -25,3 +25,4 @@ dependencies:
   flutter_gradients:
     git:
       url: https://github.com/ShadowOfThePenguin/flutter_gradients.git
+      
