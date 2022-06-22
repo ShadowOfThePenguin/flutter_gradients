@@ -11,29 +11,16 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A fork of Bear-Dictionary's fork of Flutter Gradients. The null-safe changes he added are merged into the main branch and files are moved around to allow this repository to be used as a flutter dependancy. Even after merging in the null-safe changes, Flutter was still seeing it as a legacy package so I redid the pubspec.yaml file to the current template as well as all other non-library files.
 
-## Features
+Hopefully Jonathan Monga will get the original up to null saftey and this fork will no longer be necessary.
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Original repository: https://github.com/JonathanMonga/flutter_gradients
+null-safe changes by Bear-Dictionary: https://github.com/Bear-Dictionary/flutter_gradients
 
-## Getting started
+To use in your flutter project add following to pubspec.yaml:
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+dependencies:
+  flutter_gradients:
+    git:
+      url: https://github.com/ShadowOfThePenguin/flutter_gradients.git
