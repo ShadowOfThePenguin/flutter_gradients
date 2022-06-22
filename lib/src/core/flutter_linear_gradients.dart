@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 import 'package:flutter_gradients/src/core/create_linear_gradient.dart';
 import 'package:flutter_gradients/src/core/flutter_gradients_hex.dart';

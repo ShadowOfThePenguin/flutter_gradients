@@ -1,23 +1,21 @@
 name: flutter_gradients
 description: A curated collection of awesome gradients made in Dart for Flutter.
-version: 1.0.0+3
-
-authors:
- - Flutter Community <community@flutter.zone>
- - Jonathan Monga <jmonga98@gmail.com>
-
+version: 1.0.1+0
 homepage: https://github.com/fluttercommunity/flutter_gradients
 maintainer: Jonathan Monga (@JonathanMonga)
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
-
   vector_math: ^2.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
