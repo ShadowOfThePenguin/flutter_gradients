@@ -21,8 +21,9 @@ null-safe changes by Bear-Dictionary: https://github.com/Bear-Dictionary/flutter
 
 To use in your flutter project add following to pubspec.yaml:
 
+```
 dependencies:
   flutter_gradients:
     git:
-      url: https://github.com/ShadowOfThePenguin/flutter_gradients.git
-      
+      url: https://github.com/ShadowOfThePenguin/flutter_gradients.git  
+```
